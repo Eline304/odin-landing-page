@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-left: 5px;
+  margin-right; 5px;
+}
