@@ -8,6 +8,7 @@ body {
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
+  padding: 20 350;
 }
 
 
@@ -32,6 +33,7 @@ li {
   display: flex;
   justify-content: space-between;
   color: white;
+  padding: 60 350;
 }
 
 .left-welcome {
@@ -43,35 +45,62 @@ li {
   font-size: 48px;
   font-weight: 800;
   color: #f9faf8;
+  margin-bottom: 10px;
 }
 
 .subtext {
   font-size: 18px;
   color: #e5e7eb;
+  margin-bottom: 10px;
+  width: 500px;
 }
 
 .image {
   font-size: 24px;
   color: #f9faf8;
+  background-color: grey;
+  width: 500;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+  margin-left: 50px;
 }
 
 button {
   background-color: #3882f6;
-  color: white;
-  padding: 0;
-  margin: 0;
+  color: #f9faf8;
   border: none;
   border-radius: 2px;
-  padding: 3 5;
+  padding: 5 20;
+  margin: 5 0;
 }
-
 
 .information {
   font-size: 36px;
   font-weight: 800;
+  display: flex;
+  justify-content: center;
+  padding-top: 40;
 }
 .pics {
   display: flex;
+  justify-content: center;
+  padding: 50;
+  gap: 40px;
+}
+
+.infopic {
+  width: 150;
+}
+
+.illustration {
+  border-style: solid;
+  border-color: #3882f6;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
 }
 
 .quote-section {
@@ -80,17 +109,42 @@ button {
 
 .quote {
   font-size: 36px;
-  color: #1f2937
+  color: #1f2937;
+  width: 800px;
+  margin: 0 500;
+  margin-top: 60px;
+}
+
+.thor {
+  margin-right: 500;
+  text-align: end;
+  font-weight: 700;
+  margin-bottom: 60px;
 }
 
 .action {
   display: flex;
+  justify-content: space-between;
   background-color: #3882f6;
+  color: #f9faf8;
+  padding: 50 150;
+  margin: 40 350;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.signup2 {
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  border-width: 2px;
 }
 
 .footer {
   background-color: #1f2937;
   color: white;
   margin: 0;
+  text-align: center;
+  padding: 20 0;
 }
 
